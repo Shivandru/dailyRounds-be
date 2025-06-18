@@ -8,7 +8,8 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://daily-rounds-fe.vercel.app",
+    // origin: "http://localhost:5173",
     credentials: true,
     httpOnly: true,
   })
